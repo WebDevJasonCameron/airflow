@@ -1,0 +1,70 @@
+[2022-08-02 23:57:39,199] {processor.py:153} INFO - Started process (PID=8212) to work on /opt/airflow/dags/user_processing.py
+[2022-08-02 23:57:39,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-02 23:57:39,201] {logging_mixin.py:115} INFO - [2022-08-02 23:57:39,201] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:57:39,215] {logging_mixin.py:115} INFO - [2022-08-02 23:57:39,214] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 1, in <module>
+    from Airflow import DAG
+ModuleNotFoundError: No module named 'Airflow'
+[2022-08-02 23:57:39,216] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:57:39,229] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.032 seconds
+[2022-08-02 23:58:09,749] {processor.py:153} INFO - Started process (PID=8274) to work on /opt/airflow/dags/user_processing.py
+[2022-08-02 23:58:09,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-02 23:58:09,753] {logging_mixin.py:115} INFO - [2022-08-02 23:58:09,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:58:09,764] {logging_mixin.py:115} INFO - [2022-08-02 23:58:09,762] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 1, in <module>
+    from Airflow import DAG
+ModuleNotFoundError: No module named 'Airflow'
+[2022-08-02 23:58:09,765] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:58:09,781] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.036 seconds
+[2022-08-02 23:58:40,184] {processor.py:153} INFO - Started process (PID=8336) to work on /opt/airflow/dags/user_processing.py
+[2022-08-02 23:58:40,185] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-02 23:58:40,187] {logging_mixin.py:115} INFO - [2022-08-02 23:58:40,187] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:58:40,193] {logging_mixin.py:115} INFO - [2022-08-02 23:58:40,192] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 1, in <module>
+    from Airflow import DAG
+ModuleNotFoundError: No module named 'Airflow'
+[2022-08-02 23:58:40,193] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:58:40,206] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.025 seconds
+[2022-08-02 23:59:10,692] {processor.py:153} INFO - Started process (PID=8397) to work on /opt/airflow/dags/user_processing.py
+[2022-08-02 23:59:10,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-02 23:59:10,699] {logging_mixin.py:115} INFO - [2022-08-02 23:59:10,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:59:10,711] {logging_mixin.py:115} INFO - [2022-08-02 23:59:10,708] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 1, in <module>
+    from Airflow import DAG
+ModuleNotFoundError: No module named 'Airflow'
+[2022-08-02 23:59:10,713] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:59:10,732] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.045 seconds
+[2022-08-02 23:59:41,250] {processor.py:153} INFO - Started process (PID=8458) to work on /opt/airflow/dags/user_processing.py
+[2022-08-02 23:59:41,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-02 23:59:41,257] {logging_mixin.py:115} INFO - [2022-08-02 23:59:41,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:59:41,270] {logging_mixin.py:115} INFO - [2022-08-02 23:59:41,266] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 1, in <module>
+    from Airflow import DAG
+ModuleNotFoundError: No module named 'Airflow'
+[2022-08-02 23:59:41,273] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-02 23:59:41,292] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.047 seconds
