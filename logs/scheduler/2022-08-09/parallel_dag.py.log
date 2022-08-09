@@ -1,0 +1,340 @@
+[2022-08-09 02:52:16,914] {processor.py:153} INFO - Started process (PID=9174) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:52:16,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:52:16,915] {logging_mixin.py:115} INFO - [2022-08-09 02:52:16,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:52:16,925] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:52:16,935] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.024 seconds
+[2022-08-09 02:52:47,224] {processor.py:153} INFO - Started process (PID=9229) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:52:47,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:52:47,229] {logging_mixin.py:115} INFO - [2022-08-09 02:52:47,229] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:52:47,243] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:52:47,257] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.039 seconds
+[2022-08-09 02:53:14,610] {processor.py:153} INFO - Started process (PID=9287) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:14,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:53:14,612] {logging_mixin.py:115} INFO - [2022-08-09 02:53:14,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:14,619] {logging_mixin.py:115} INFO - [2022-08-09 02:53:14,619] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 8
+    catchup=False) as dag:
+                         ^
+SyntaxError: unexpected EOF while parsing
+[2022-08-09 02:53:14,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:14,633] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.025 seconds
+[2022-08-09 02:53:23,156] {processor.py:153} INFO - Started process (PID=9302) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:23,157] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:53:23,158] {logging_mixin.py:115} INFO - [2022-08-09 02:53:23,158] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:23,164] {logging_mixin.py:115} INFO - [2022-08-09 02:53:23,164] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 8
+    catchup=False) as dag:
+                         ^
+SyntaxError: unexpected EOF while parsing
+[2022-08-09 02:53:23,165] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:23,177] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.022 seconds
+[2022-08-09 02:53:33,235] {processor.py:153} INFO - Started process (PID=9314) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:33,236] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:53:33,237] {logging_mixin.py:115} INFO - [2022-08-09 02:53:33,237] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:33,243] {logging_mixin.py:115} INFO - [2022-08-09 02:53:33,242] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 7
+    catchup=False) as dag:
+                         ^
+SyntaxError: unexpected EOF while parsing
+[2022-08-09 02:53:33,244] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:33,259] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.025 seconds
+[2022-08-09 02:53:50,584] {processor.py:153} INFO - Started process (PID=9367) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:50,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:53:50,590] {logging_mixin.py:115} INFO - [2022-08-09 02:53:50,590] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:50,601] {logging_mixin.py:115} INFO - [2022-08-09 02:53:50,600] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+                                                                                                               ^
+SyntaxError: unexpected EOF while parsing
+[2022-08-09 02:53:50,603] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:53:50,619] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.040 seconds
+[2022-08-09 02:54:21,103] {processor.py:153} INFO - Started process (PID=9430) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:54:21,116] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:54:21,118] {logging_mixin.py:115} INFO - [2022-08-09 02:54:21,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:54:21,130] {logging_mixin.py:115} INFO - [2022-08-09 02:54:21,129] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+                                                                                                               ^
+SyntaxError: unexpected EOF while parsing
+[2022-08-09 02:54:21,133] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:54:21,151] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.052 seconds
+[2022-08-09 02:54:35,242] {processor.py:153} INFO - Started process (PID=9443) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:54:35,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:54:35,248] {logging_mixin.py:115} INFO - [2022-08-09 02:54:35,248] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:54:35,275] {logging_mixin.py:115} INFO - [2022-08-09 02:54:35,273] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:54:35,276] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:54:35,290] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.052 seconds
+[2022-08-09 02:55:05,805] {processor.py:153} INFO - Started process (PID=9506) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:05,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:55:05,810] {logging_mixin.py:115} INFO - [2022-08-09 02:55:05,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:05,826] {logging_mixin.py:115} INFO - [2022-08-09 02:55:05,824] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:55:05,827] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:05,844] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.044 seconds
+[2022-08-09 02:55:23,259] {processor.py:153} INFO - Started process (PID=9559) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:23,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:55:23,265] {logging_mixin.py:115} INFO - [2022-08-09 02:55:23,265] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:23,279] {logging_mixin.py:115} INFO - [2022-08-09 02:55:23,278] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 13
+    task=id='extract_b',
+           ^
+SyntaxError: invalid syntax
+[2022-08-09 02:55:23,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:23,297] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.042 seconds
+[2022-08-09 02:55:37,397] {processor.py:153} INFO - Started process (PID=9571) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:37,399] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:55:37,400] {logging_mixin.py:115} INFO - [2022-08-09 02:55:37,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:37,422] {logging_mixin.py:115} INFO - [2022-08-09 02:55:37,420] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:55:37,423] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:55:37,440] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.047 seconds
+[2022-08-09 02:56:07,734] {processor.py:153} INFO - Started process (PID=9636) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:07,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:56:07,736] {logging_mixin.py:115} INFO - [2022-08-09 02:56:07,736] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:07,743] {logging_mixin.py:115} INFO - [2022-08-09 02:56:07,742] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:56:07,744] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:07,756] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.025 seconds
+[2022-08-09 02:56:35,543] {processor.py:153} INFO - Started process (PID=9691) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:35,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:56:35,545] {logging_mixin.py:115} INFO - [2022-08-09 02:56:35,545] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:35,557] {logging_mixin.py:115} INFO - [2022-08-09 02:56:35,556] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:56:35,558] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:35,571] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.030 seconds
+[2022-08-09 02:56:43,609] {processor.py:153} INFO - Started process (PID=9702) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:43,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:56:43,613] {logging_mixin.py:115} INFO - [2022-08-09 02:56:43,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:43,637] {logging_mixin.py:115} INFO - [2022-08-09 02:56:43,636] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:56:43,639] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:56:43,652] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.047 seconds
+[2022-08-09 02:57:14,044] {processor.py:153} INFO - Started process (PID=9765) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:14,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:57:14,049] {logging_mixin.py:115} INFO - [2022-08-09 02:57:14,049] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:14,066] {logging_mixin.py:115} INFO - [2022-08-09 02:57:14,064] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:57:14,068] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:14,088] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.049 seconds
+[2022-08-09 02:57:18,709] {processor.py:153} INFO - Started process (PID=9781) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:18,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:57:18,712] {logging_mixin.py:115} INFO - [2022-08-09 02:57:18,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:18,737] {logging_mixin.py:115} INFO - [2022-08-09 02:57:18,735] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:57:18,740] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:18,758] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.053 seconds
+[2022-08-09 02:57:29,501] {processor.py:153} INFO - Started process (PID=9809) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:29,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:57:29,505] {logging_mixin.py:115} INFO - [2022-08-09 02:57:29,505] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:29,530] {logging_mixin.py:115} INFO - [2022-08-09 02:57:29,529] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:57:29,532] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:57:29,546] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.051 seconds
+[2022-08-09 02:58:00,044] {processor.py:153} INFO - Started process (PID=9873) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:00,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:58:00,050] {logging_mixin.py:115} INFO - [2022-08-09 02:58:00,050] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:00,067] {logging_mixin.py:115} INFO - [2022-08-09 02:58:00,065] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:58:00,069] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:00,087] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.049 seconds
+[2022-08-09 02:58:30,510] {processor.py:153} INFO - Started process (PID=9937) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:30,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:58:30,516] {logging_mixin.py:115} INFO - [2022-08-09 02:58:30,516] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:30,530] {logging_mixin.py:115} INFO - [2022-08-09 02:58:30,528] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:58:30,532] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:30,548] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.043 seconds
+[2022-08-09 02:58:40,649] {processor.py:153} INFO - Started process (PID=9948) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:40,651] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:58:40,653] {logging_mixin.py:115} INFO - [2022-08-09 02:58:40,653] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:40,677] {logging_mixin.py:115} INFO - [2022-08-09 02:58:40,675] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:58:40,678] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:58:40,693] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.049 seconds
+[2022-08-09 02:59:11,212] {processor.py:153} INFO - Started process (PID=10013) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:59:11,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:59:11,217] {logging_mixin.py:115} INFO - [2022-08-09 02:59:11,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:59:11,234] {logging_mixin.py:115} INFO - [2022-08-09 02:59:11,232] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/parallel_dag.py", line 5, in <module>
+    with DAG('parallel_dag', start_date=datetime(2022, 1, 1), schedule_interfal='@daily', catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_interfal'
+[2022-08-09 02:59:11,235] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:59:11,252] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.046 seconds
+[2022-08-09 02:59:39,774] {processor.py:153} INFO - Started process (PID=10067) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:59:39,776] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 02:59:39,778] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,778] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:59:39,803] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 02:59:39,857] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,857] {manager.py:508} INFO - Created Permission View: can edit on DAG:parallel_dag
+[2022-08-09 02:59:39,863] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,863] {manager.py:508} INFO - Created Permission View: can delete on DAG:parallel_dag
+[2022-08-09 02:59:39,867] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,867] {manager.py:508} INFO - Created Permission View: can read on DAG:parallel_dag
+[2022-08-09 02:59:39,868] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,868] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 02:59:39,873] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,873] {dag.py:2390} INFO - Creating ORM DAG for parallel_dag
+[2022-08-09 02:59:39,879] {logging_mixin.py:115} INFO - [2022-08-09 02:59:39,879] {dag.py:2919} INFO - Setting next_dagrun for parallel_dag to 2022-08-08T00:00:00+00:00, run_after=2022-08-09T00:00:00+00:00
+[2022-08-09 02:59:39,887] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.119 seconds
+[2022-08-09 03:00:10,474] {processor.py:153} INFO - Started process (PID=10130) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:00:10,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 03:00:10,478] {logging_mixin.py:115} INFO - [2022-08-09 03:00:10,478] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:00:10,499] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:00:10,520] {logging_mixin.py:115} INFO - [2022-08-09 03:00:10,520] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 03:00:10,533] {logging_mixin.py:115} INFO - [2022-08-09 03:00:10,533] {dag.py:2919} INFO - Setting next_dagrun for parallel_dag to 2022-08-08T00:00:00+00:00, run_after=2022-08-09T00:00:00+00:00
+[2022-08-09 03:00:10,539] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.071 seconds
+[2022-08-09 03:00:41,002] {processor.py:153} INFO - Started process (PID=10193) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:00:41,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 03:00:41,008] {logging_mixin.py:115} INFO - [2022-08-09 03:00:41,008] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:00:41,026] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:00:41,048] {logging_mixin.py:115} INFO - [2022-08-09 03:00:41,048] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 03:00:41,060] {logging_mixin.py:115} INFO - [2022-08-09 03:00:41,060] {dag.py:2919} INFO - Setting next_dagrun for parallel_dag to 2022-08-08T00:00:00+00:00, run_after=2022-08-09T00:00:00+00:00
+[2022-08-09 03:00:41,066] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.070 seconds
+[2022-08-09 03:01:11,601] {processor.py:153} INFO - Started process (PID=10257) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:01:11,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 03:01:11,605] {logging_mixin.py:115} INFO - [2022-08-09 03:01:11,605] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:01:11,617] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:01:11,637] {logging_mixin.py:115} INFO - [2022-08-09 03:01:11,637] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 03:01:11,649] {logging_mixin.py:115} INFO - [2022-08-09 03:01:11,649] {dag.py:2919} INFO - Setting next_dagrun for parallel_dag to 2022-08-08T00:00:00+00:00, run_after=2022-08-09T00:00:00+00:00
+[2022-08-09 03:01:11,654] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.058 seconds
+[2022-08-09 03:01:42,012] {processor.py:153} INFO - Started process (PID=10320) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:01:42,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 03:01:42,014] {logging_mixin.py:115} INFO - [2022-08-09 03:01:42,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:01:42,022] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:01:42,039] {logging_mixin.py:115} INFO - [2022-08-09 03:01:42,039] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 03:01:42,051] {logging_mixin.py:115} INFO - [2022-08-09 03:01:42,051] {dag.py:2919} INFO - Setting next_dagrun for parallel_dag to 2022-08-08T00:00:00+00:00, run_after=2022-08-09T00:00:00+00:00
+[2022-08-09 03:01:42,058] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.049 seconds
+[2022-08-09 03:02:12,488] {processor.py:153} INFO - Started process (PID=10375) to work on /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:02:12,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2022-08-09 03:02:12,492] {logging_mixin.py:115} INFO - [2022-08-09 03:02:12,492] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:02:12,508] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2022-08-09 03:02:12,539] {logging_mixin.py:115} INFO - [2022-08-09 03:02:12,539] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 03:02:12,563] {logging_mixin.py:115} INFO - [2022-08-09 03:02:12,563] {dag.py:2919} INFO - Setting next_dagrun for parallel_dag to 2022-08-08T00:00:00+00:00, run_after=2022-08-09T00:00:00+00:00
+[2022-08-09 03:02:12,571] {processor.py:161} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.089 seconds
