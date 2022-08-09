@@ -382,3 +382,35 @@ Traceback (most recent call last):
 airflow.exceptions.AirflowException: missing keyword argument 'endpoint'
 [2022-08-09 01:48:56,589] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
 [2022-08-09 01:48:56,604] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.260 seconds
+[2022-08-09 01:49:27,237] {processor.py:153} INFO - Started process (PID=1526) to work on /opt/airflow/dags/user_processing.py
+[2022-08-09 01:49:27,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-09 01:49:27,243] {logging_mixin.py:115} INFO - [2022-08-09 01:49:27,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-09 01:49:27,478] {logging_mixin.py:115} INFO - [2022-08-09 01:49:27,475] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 52, in <module>
+    endepoint='api/'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'endpoint'
+[2022-08-09 01:49:27,481] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-09 01:49:27,493] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.261 seconds
+[2022-08-09 01:49:58,209] {processor.py:153} INFO - Started process (PID=1589) to work on /opt/airflow/dags/user_processing.py
+[2022-08-09 01:49:58,212] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2022-08-09 01:49:58,214] {logging_mixin.py:115} INFO - [2022-08-09 01:49:58,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2022-08-09 01:49:58,454] {logging_mixin.py:115} INFO - [2022-08-09 01:49:58,452] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 52, in <module>
+    endepoint='api/'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'endpoint'
+[2022-08-09 01:49:58,455] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2022-08-09 01:49:58,467] {processor.py:161} INFO - Processing /opt/airflow/dags/user_processing.py took 0.264 seconds
