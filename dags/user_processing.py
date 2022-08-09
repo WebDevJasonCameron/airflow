@@ -34,14 +34,14 @@ with DAG('user_processing', start_date=datetime(2022, 1, 1), schedule_interval='
         task_id='create_table',
         postgres_conn_id='postgres',
         sql='''
-          CREATE TABLE IF NOT EXISTS users (
+        CREATE TABLE IF NOT EXISTS users (
             firstname TEXT NOT NULL,
             lastname TEXT NOT NULL,
             country TEXT NOT NULL,
             username TEXT NOT NULL,
             password TEXT NOT NULL,
             email TEXT NOT NULL
-          );
+        );
         '''
     )
 
