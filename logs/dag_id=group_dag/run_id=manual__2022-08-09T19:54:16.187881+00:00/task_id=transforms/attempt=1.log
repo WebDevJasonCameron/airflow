@@ -21,3 +21,11 @@ AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-09T19:54:16.187881+00:00
   warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
 
 [2022-08-09 19:55:29,037] {subdag.py:176} INFO - Created DagRun: scheduled__2022-08-09T19:54:16.187881+00:00
+[2022-08-10 03:38:18,293] {taskinstance.py:1153} INFO - Dependencies not met for <TaskInstance: group_dag.transforms manual__2022-08-09T19:54:16.187881+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2022-08-10 03:38:18,295] {taskinstance.py:1153} INFO - Dependencies not met for <TaskInstance: group_dag.transforms manual__2022-08-09T19:54:16.187881+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2022-08-10 03:38:18,298] {local_task_job.py:101} INFO - Task is not able to be run
+[2022-08-10 06:58:13,809] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-08-10 06:58:13,813] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 11694. PIDs of all processes in the group: [11694]
+[2022-08-10 06:58:13,814] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 11694
+[2022-08-10 06:58:13,815] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-08-10 06:58:13,912] {process_utils.py:75} INFO - Process psutil.Process(pid=11694, status='terminated', exitcode=0, started='19:55:28') (11694) terminated with exit code 0

@@ -4379,3 +4379,1287 @@ KeyError: 'schedule+interval'
 [2022-08-09 20:44:26,751] {logging_mixin.py:115} INFO - [2022-08-09 20:44:26,751] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
 [2022-08-09 20:44:26,752] {logging_mixin.py:115} INFO - [2022-08-09 20:44:26,752] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
 [2022-08-09 20:44:26,758] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.115 seconds
+[2022-08-09 20:44:56,880] {processor.py:153} INFO - Started process (PID=17019) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:44:56,882] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:44:56,884] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:44:56,916] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:44:56,938] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,938] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:44:56,950] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,950] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:44:56,951] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,951] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:44:56,952] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,952] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:44:56,955] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,955] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:44:56,959] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,959] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:44:56,959] {logging_mixin.py:115} INFO - [2022-08-09 20:44:56,959] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:44:56,963] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.087 seconds
+[2022-08-09 20:45:27,116] {processor.py:153} INFO - Started process (PID=17045) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:45:27,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:45:27,120] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,120] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:45:27,152] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:45:27,169] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,169] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:45:27,181] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,181] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:45:27,182] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,182] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:45:27,183] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,183] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:45:27,187] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,187] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:45:27,190] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,190] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:45:27,191] {logging_mixin.py:115} INFO - [2022-08-09 20:45:27,191] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:45:27,195] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.083 seconds
+[2022-08-09 20:45:57,403] {processor.py:153} INFO - Started process (PID=17078) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:45:57,406] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:45:57,408] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:45:57,443] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:45:57,463] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,463] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:45:57,475] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,475] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:45:57,476] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,476] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:45:57,477] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,477] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:45:57,481] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,481] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:45:57,484] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,484] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:45:57,485] {logging_mixin.py:115} INFO - [2022-08-09 20:45:57,485] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:45:57,489] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 20:46:27,692] {processor.py:153} INFO - Started process (PID=17113) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:46:27,694] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:46:27,695] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,695] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:46:27,729] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:46:27,757] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,757] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:46:27,772] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,772] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:46:27,773] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,773] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:46:27,774] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,774] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:46:27,778] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,778] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:46:27,781] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,781] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:46:27,782] {logging_mixin.py:115} INFO - [2022-08-09 20:46:27,782] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:46:27,787] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.098 seconds
+[2022-08-09 20:46:57,949] {processor.py:153} INFO - Started process (PID=17147) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:46:57,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:46:57,953] {logging_mixin.py:115} INFO - [2022-08-09 20:46:57,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:46:57,986] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:46:58,014] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,014] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:46:58,030] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,030] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:46:58,031] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,031] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:46:58,032] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,032] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:46:58,036] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,036] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:46:58,040] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,039] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:46:58,041] {logging_mixin.py:115} INFO - [2022-08-09 20:46:58,041] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:46:58,046] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.101 seconds
+[2022-08-09 20:47:28,342] {processor.py:153} INFO - Started process (PID=17183) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:47:28,344] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:47:28,345] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,345] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:47:28,375] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:47:28,396] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,396] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:47:28,411] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,411] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:47:28,412] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,412] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:47:28,413] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,413] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:47:28,416] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,416] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:47:28,420] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,420] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:47:28,420] {logging_mixin.py:115} INFO - [2022-08-09 20:47:28,420] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:47:28,425] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.086 seconds
+[2022-08-09 20:47:58,688] {processor.py:153} INFO - Started process (PID=17207) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:47:58,691] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:47:58,692] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,692] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:47:58,725] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:47:58,747] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,747] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:47:58,760] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,760] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:47:58,761] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,761] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:47:58,762] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,762] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:47:58,766] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,766] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:47:58,769] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,769] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:47:58,770] {logging_mixin.py:115} INFO - [2022-08-09 20:47:58,770] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:47:58,774] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 20:48:28,944] {processor.py:153} INFO - Started process (PID=17243) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:48:28,946] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:48:28,947] {logging_mixin.py:115} INFO - [2022-08-09 20:48:28,947] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:48:28,974] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:48:28,991] {logging_mixin.py:115} INFO - [2022-08-09 20:48:28,991] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:48:29,003] {logging_mixin.py:115} INFO - [2022-08-09 20:48:29,003] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:48:29,004] {logging_mixin.py:115} INFO - [2022-08-09 20:48:29,004] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:48:29,006] {logging_mixin.py:115} INFO - [2022-08-09 20:48:29,006] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:48:29,009] {logging_mixin.py:115} INFO - [2022-08-09 20:48:29,009] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:48:29,012] {logging_mixin.py:115} INFO - [2022-08-09 20:48:29,012] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:48:29,013] {logging_mixin.py:115} INFO - [2022-08-09 20:48:29,013] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:48:29,017] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.076 seconds
+[2022-08-09 20:48:59,233] {processor.py:153} INFO - Started process (PID=17276) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:48:59,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:48:59,236] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,236] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:48:59,263] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:48:59,280] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,280] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:48:59,292] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,292] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:48:59,293] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,293] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:48:59,294] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,294] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:48:59,298] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,298] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:48:59,301] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,301] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:48:59,302] {logging_mixin.py:115} INFO - [2022-08-09 20:48:59,302] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:48:59,306] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.076 seconds
+[2022-08-09 20:49:29,612] {processor.py:153} INFO - Started process (PID=17311) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:49:29,614] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:49:29,616] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,616] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:49:29,661] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:49:29,685] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,685] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:49:29,701] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,701] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:49:29,703] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,703] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:49:29,704] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,704] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:49:29,709] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,709] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:49:29,715] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,715] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:49:29,717] {logging_mixin.py:115} INFO - [2022-08-09 20:49:29,717] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:49:29,725] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.115 seconds
+[2022-08-09 20:50:00,017] {processor.py:153} INFO - Started process (PID=17347) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:50:00,018] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:50:00,020] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,020] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:50:00,052] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:50:00,072] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,072] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:50:00,088] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,088] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:50:00,089] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,089] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:50:00,090] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,090] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:50:00,095] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,095] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:50:00,099] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,099] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:50:00,100] {logging_mixin.py:115} INFO - [2022-08-09 20:50:00,100] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:50:00,106] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.092 seconds
+[2022-08-09 20:50:30,350] {processor.py:153} INFO - Started process (PID=17375) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:50:30,352] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:50:30,353] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,353] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:50:30,380] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:50:30,398] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,398] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:50:30,410] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,410] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:50:30,411] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,411] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:50:30,412] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,412] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:50:30,416] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,416] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:50:30,419] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,419] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:50:30,419] {logging_mixin.py:115} INFO - [2022-08-09 20:50:30,419] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:50:30,424] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.076 seconds
+[2022-08-09 20:51:00,684] {processor.py:153} INFO - Started process (PID=17409) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:51:00,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:51:00,688] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,688] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:51:00,715] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:51:00,733] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,733] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:51:00,746] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,746] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:51:00,747] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,747] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:51:00,748] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,748] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:51:00,751] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,751] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:51:00,754] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,754] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:51:00,755] {logging_mixin.py:115} INFO - [2022-08-09 20:51:00,755] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:51:00,759] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.077 seconds
+[2022-08-09 20:51:30,981] {processor.py:153} INFO - Started process (PID=17443) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:51:30,983] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:51:30,985] {logging_mixin.py:115} INFO - [2022-08-09 20:51:30,984] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:51:31,011] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:51:31,028] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,028] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:51:31,040] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,040] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:51:31,041] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,041] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:51:31,042] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,042] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:51:31,045] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,045] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:51:31,049] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,049] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:51:31,049] {logging_mixin.py:115} INFO - [2022-08-09 20:51:31,049] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:51:31,054] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.075 seconds
+[2022-08-09 20:52:01,267] {processor.py:153} INFO - Started process (PID=17479) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:52:01,269] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:52:01,271] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,271] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:52:01,300] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:52:01,320] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,320] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:52:01,335] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,335] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:52:01,336] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,336] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:52:01,337] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,337] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:52:01,341] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,341] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:52:01,346] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,346] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:52:01,347] {logging_mixin.py:115} INFO - [2022-08-09 20:52:01,347] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:52:01,353] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.088 seconds
+[2022-08-09 20:52:31,598] {processor.py:153} INFO - Started process (PID=17513) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:52:31,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:52:31,608] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:52:31,639] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:52:31,659] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,659] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:52:31,676] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,676] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:52:31,677] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,677] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:52:31,678] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,678] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:52:31,682] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,682] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:52:31,687] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,687] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:52:31,688] {logging_mixin.py:115} INFO - [2022-08-09 20:52:31,688] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:52:31,694] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.100 seconds
+[2022-08-09 20:53:01,910] {processor.py:153} INFO - Started process (PID=17538) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:53:01,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:53:01,915] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:53:01,953] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:53:01,974] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,974] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:53:01,988] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,988] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:53:01,989] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,989] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:53:01,990] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,990] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:53:01,994] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,994] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:53:01,997] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,997] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:53:01,998] {logging_mixin.py:115} INFO - [2022-08-09 20:53:01,998] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:53:02,003] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.098 seconds
+[2022-08-09 20:53:32,241] {processor.py:153} INFO - Started process (PID=17574) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:53:32,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:53:32,247] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,247] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:53:32,282] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:53:32,302] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,302] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:53:32,317] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,317] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:53:32,318] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,318] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:53:32,319] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,319] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:53:32,324] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,323] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:53:32,327] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,327] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:53:32,328] {logging_mixin.py:115} INFO - [2022-08-09 20:53:32,328] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:53:32,332] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.095 seconds
+[2022-08-09 20:54:02,573] {processor.py:153} INFO - Started process (PID=17607) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:54:02,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:54:02,577] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,577] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:54:02,603] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:54:02,634] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,634] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:54:02,661] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,661] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:54:02,663] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,663] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:54:02,664] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,664] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:54:02,670] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,670] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:54:02,675] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,675] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:54:02,677] {logging_mixin.py:115} INFO - [2022-08-09 20:54:02,677] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:54:02,683] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.113 seconds
+[2022-08-09 20:54:32,902] {processor.py:153} INFO - Started process (PID=17642) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:54:32,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:54:32,904] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,904] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:54:32,929] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:54:32,947] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,947] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:54:32,959] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,959] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:54:32,960] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,960] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:54:32,961] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,961] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:54:32,964] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,964] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:54:32,968] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,968] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:54:32,969] {logging_mixin.py:115} INFO - [2022-08-09 20:54:32,968] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:54:32,974] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.074 seconds
+[2022-08-09 20:55:03,247] {processor.py:153} INFO - Started process (PID=17676) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:55:03,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:55:03,250] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,250] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:55:03,276] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:55:03,298] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,298] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:55:03,310] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,310] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:55:03,311] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,310] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:55:03,311] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,311] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:55:03,315] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,315] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:55:03,318] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,318] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:55:03,319] {logging_mixin.py:115} INFO - [2022-08-09 20:55:03,319] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:55:03,324] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.079 seconds
+[2022-08-09 20:55:33,567] {processor.py:153} INFO - Started process (PID=17702) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:55:33,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:55:33,569] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:55:33,593] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:55:33,610] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,610] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:55:33,621] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,621] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:55:33,622] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,622] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:55:33,623] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,623] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:55:33,627] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,627] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:55:33,630] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,630] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:55:33,630] {logging_mixin.py:115} INFO - [2022-08-09 20:55:33,630] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:55:33,635] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.070 seconds
+[2022-08-09 20:56:03,846] {processor.py:153} INFO - Started process (PID=17737) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:56:03,848] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:56:03,849] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:56:03,880] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:56:03,899] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,899] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:56:03,913] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,913] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:56:03,914] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,914] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:56:03,915] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,915] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:56:03,918] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,918] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:56:03,921] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,921] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:56:03,922] {logging_mixin.py:115} INFO - [2022-08-09 20:56:03,922] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:56:03,927] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.083 seconds
+[2022-08-09 20:56:34,192] {processor.py:153} INFO - Started process (PID=17770) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:56:34,193] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:56:34,194] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,194] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:56:34,220] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:56:34,237] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,237] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:56:34,249] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,249] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:56:34,250] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,250] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:56:34,251] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,251] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:56:34,255] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,255] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:56:34,258] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,258] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:56:34,259] {logging_mixin.py:115} INFO - [2022-08-09 20:56:34,259] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:56:34,263] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.073 seconds
+[2022-08-09 20:57:04,525] {processor.py:153} INFO - Started process (PID=17804) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:57:04,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:57:04,530] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:57:04,569] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:57:04,587] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,587] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:57:04,600] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,600] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:57:04,602] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,601] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:57:04,603] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,602] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:57:04,606] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,606] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:57:04,609] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,609] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:57:04,609] {logging_mixin.py:115} INFO - [2022-08-09 20:57:04,609] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:57:04,614] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.094 seconds
+[2022-08-09 20:57:34,927] {processor.py:153} INFO - Started process (PID=17838) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:57:34,929] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:57:34,930] {logging_mixin.py:115} INFO - [2022-08-09 20:57:34,930] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:57:34,957] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:57:34,982] {logging_mixin.py:115} INFO - [2022-08-09 20:57:34,982] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:57:34,995] {logging_mixin.py:115} INFO - [2022-08-09 20:57:34,995] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:57:34,996] {logging_mixin.py:115} INFO - [2022-08-09 20:57:34,996] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:57:34,997] {logging_mixin.py:115} INFO - [2022-08-09 20:57:34,997] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:57:35,001] {logging_mixin.py:115} INFO - [2022-08-09 20:57:35,001] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:57:35,004] {logging_mixin.py:115} INFO - [2022-08-09 20:57:35,004] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:57:35,005] {logging_mixin.py:115} INFO - [2022-08-09 20:57:35,005] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:57:35,010] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.086 seconds
+[2022-08-09 20:58:05,222] {processor.py:153} INFO - Started process (PID=17862) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:58:05,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:58:05,230] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:58:05,269] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:58:05,288] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,288] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:58:05,301] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,301] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:58:05,302] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,302] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:58:05,303] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,303] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:58:05,307] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,307] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:58:05,310] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,310] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:58:05,311] {logging_mixin.py:115} INFO - [2022-08-09 20:58:05,311] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:58:05,315] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.099 seconds
+[2022-08-09 20:58:35,535] {processor.py:153} INFO - Started process (PID=17895) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:58:35,538] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:58:35,539] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,539] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:58:35,567] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:58:35,587] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,587] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:58:35,603] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,603] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:58:35,604] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,604] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:58:35,605] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,605] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:58:35,610] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,610] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:58:35,614] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,614] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:58:35,615] {logging_mixin.py:115} INFO - [2022-08-09 20:58:35,615] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:58:35,624] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.091 seconds
+[2022-08-09 20:59:05,888] {processor.py:153} INFO - Started process (PID=17930) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:59:05,890] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:59:05,891] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,891] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:59:05,923] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:59:05,950] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,950] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:59:05,962] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,962] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:59:05,963] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,963] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:59:05,964] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,964] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:59:05,968] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,968] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:59:05,971] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,971] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:59:05,971] {logging_mixin.py:115} INFO - [2022-08-09 20:59:05,971] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:59:05,976] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 20:59:36,221] {processor.py:153} INFO - Started process (PID=17965) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 20:59:36,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 20:59:36,224] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,224] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:59:36,250] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 20:59:36,268] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,268] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 20:59:36,280] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,280] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 20:59:36,281] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,281] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:59:36,282] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,282] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:59:36,286] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,286] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 20:59:36,289] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,289] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 20:59:36,290] {logging_mixin.py:115} INFO - [2022-08-09 20:59:36,290] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 20:59:36,296] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.077 seconds
+[2022-08-09 21:00:06,627] {processor.py:153} INFO - Started process (PID=17997) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:00:06,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:00:06,630] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:00:06,658] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:00:06,677] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,676] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:00:06,689] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,689] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:00:06,690] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,690] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:00:06,691] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,691] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:00:06,695] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,695] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:00:06,699] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,699] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:00:06,700] {logging_mixin.py:115} INFO - [2022-08-09 21:00:06,700] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:00:06,706] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.081 seconds
+[2022-08-09 21:00:36,874] {processor.py:153} INFO - Started process (PID=18021) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:00:36,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:00:36,877] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:00:36,904] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:00:36,921] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,921] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:00:36,933] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,933] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:00:36,934] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,934] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:00:36,935] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,935] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:00:36,939] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,939] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:00:36,942] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,942] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:00:36,943] {logging_mixin.py:115} INFO - [2022-08-09 21:00:36,943] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:00:36,948] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.076 seconds
+[2022-08-09 21:01:07,179] {processor.py:153} INFO - Started process (PID=18060) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:01:07,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:01:07,184] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,184] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:01:07,221] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:01:07,245] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,245] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:01:07,260] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,259] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:01:07,261] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,261] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:01:07,262] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,262] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:01:07,267] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,267] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:01:07,271] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,271] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:01:07,272] {logging_mixin.py:115} INFO - [2022-08-09 21:01:07,271] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:01:07,276] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.099 seconds
+[2022-08-09 21:01:37,452] {processor.py:153} INFO - Started process (PID=18098) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:01:37,453] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:01:37,454] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,454] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:01:37,479] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:01:37,499] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,499] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:01:37,511] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,511] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:01:37,513] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,513] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:01:37,513] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,513] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:01:37,517] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,517] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:01:37,520] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,520] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:01:37,521] {logging_mixin.py:115} INFO - [2022-08-09 21:01:37,521] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:01:37,525] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.075 seconds
+[2022-08-09 21:02:07,810] {processor.py:153} INFO - Started process (PID=18132) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:02:07,812] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:02:07,813] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,813] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:02:07,841] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:02:07,858] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,858] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:02:07,871] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,871] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:02:07,872] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,872] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:02:07,873] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,873] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:02:07,876] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,876] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:02:07,879] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,879] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:02:07,880] {logging_mixin.py:115} INFO - [2022-08-09 21:02:07,880] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:02:07,884] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.076 seconds
+[2022-08-09 21:02:38,149] {processor.py:153} INFO - Started process (PID=18165) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:02:38,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:02:38,157] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:02:38,241] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:02:38,284] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,284] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:02:38,304] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,304] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:02:38,305] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,305] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:02:38,307] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,306] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:02:38,313] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,313] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:02:38,319] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,319] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:02:38,320] {logging_mixin.py:115} INFO - [2022-08-09 21:02:38,320] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:02:38,326] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.180 seconds
+[2022-08-09 21:03:08,408] {processor.py:153} INFO - Started process (PID=18191) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:03:08,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:03:08,411] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,411] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:03:08,441] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:03:08,464] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,464] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:03:08,478] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,478] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:03:08,479] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,479] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:03:08,480] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,480] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:03:08,484] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,484] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:03:08,487] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,487] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:03:08,488] {logging_mixin.py:115} INFO - [2022-08-09 21:03:08,488] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:03:08,492] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.087 seconds
+[2022-08-09 21:03:38,793] {processor.py:153} INFO - Started process (PID=18231) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:03:38,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:03:38,800] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:03:38,835] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:03:38,852] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,852] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:03:38,865] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,865] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:03:38,866] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,866] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:03:38,867] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,867] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:03:38,870] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,870] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:03:38,874] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,874] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:03:38,874] {logging_mixin.py:115} INFO - [2022-08-09 21:03:38,874] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:03:38,878] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 21:04:09,099] {processor.py:153} INFO - Started process (PID=18265) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:04:09,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:04:09,104] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:04:09,142] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:04:09,163] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,163] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:04:09,177] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,177] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:04:09,179] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,179] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:04:09,180] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,180] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:04:09,184] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,184] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:04:09,187] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,187] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:04:09,188] {logging_mixin.py:115} INFO - [2022-08-09 21:04:09,188] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:04:09,192] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.097 seconds
+[2022-08-09 21:04:39,390] {processor.py:153} INFO - Started process (PID=18298) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:04:39,392] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:04:39,393] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,393] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:04:39,417] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:04:39,435] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,435] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:04:39,450] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,450] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:04:39,451] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,451] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:04:39,452] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,452] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:04:39,456] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,456] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:04:39,460] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,460] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:04:39,461] {logging_mixin.py:115} INFO - [2022-08-09 21:04:39,461] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:04:39,469] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.080 seconds
+[2022-08-09 21:05:09,761] {processor.py:153} INFO - Started process (PID=18332) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:05:09,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:05:09,765] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,765] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:05:09,812] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:05:09,839] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,838] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:05:09,853] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,853] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:05:09,854] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,854] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:05:09,855] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,855] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:05:09,860] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,859] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:05:09,864] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,864] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:05:09,865] {logging_mixin.py:115} INFO - [2022-08-09 21:05:09,865] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:05:09,871] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.115 seconds
+[2022-08-09 21:05:40,042] {processor.py:153} INFO - Started process (PID=18357) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:05:40,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:05:40,045] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,045] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:05:40,080] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:05:40,098] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,098] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:05:40,111] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,111] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:05:40,112] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,112] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:05:40,113] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,113] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:05:40,116] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,116] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:05:40,119] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,119] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:05:40,120] {logging_mixin.py:115} INFO - [2022-08-09 21:05:40,120] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:05:40,125] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.086 seconds
+[2022-08-09 21:06:10,357] {processor.py:153} INFO - Started process (PID=18392) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:06:10,358] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:06:10,359] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:06:10,386] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:06:10,405] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,405] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:06:10,418] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,418] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:06:10,420] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,420] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:06:10,421] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,421] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:06:10,425] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,425] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:06:10,429] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,429] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:06:10,429] {logging_mixin.py:115} INFO - [2022-08-09 21:06:10,429] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:06:10,434] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.079 seconds
+[2022-08-09 21:06:40,606] {processor.py:153} INFO - Started process (PID=18428) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:06:40,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:06:40,611] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,611] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:06:40,650] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:06:40,668] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,668] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:06:40,681] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,681] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:06:40,682] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,682] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:06:40,683] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,683] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:06:40,687] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,687] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:06:40,690] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,690] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:06:40,690] {logging_mixin.py:115} INFO - [2022-08-09 21:06:40,690] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:06:40,695] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.093 seconds
+[2022-08-09 21:07:10,905] {processor.py:153} INFO - Started process (PID=18463) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:07:10,908] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:07:10,910] {logging_mixin.py:115} INFO - [2022-08-09 21:07:10,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:07:10,962] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:07:10,987] {logging_mixin.py:115} INFO - [2022-08-09 21:07:10,987] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:07:11,000] {logging_mixin.py:115} INFO - [2022-08-09 21:07:11,000] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:07:11,001] {logging_mixin.py:115} INFO - [2022-08-09 21:07:11,001] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:07:11,002] {logging_mixin.py:115} INFO - [2022-08-09 21:07:11,002] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:07:11,007] {logging_mixin.py:115} INFO - [2022-08-09 21:07:11,007] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:07:11,012] {logging_mixin.py:115} INFO - [2022-08-09 21:07:11,012] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:07:11,013] {logging_mixin.py:115} INFO - [2022-08-09 21:07:11,013] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:07:11,018] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.118 seconds
+[2022-08-09 21:07:41,326] {processor.py:153} INFO - Started process (PID=18494) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:07:41,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:07:41,333] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:07:41,381] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:07:41,402] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,402] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:07:41,418] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,418] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:07:41,419] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,419] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:07:41,421] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,421] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:07:41,426] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,426] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:07:41,430] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,430] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:07:41,431] {logging_mixin.py:115} INFO - [2022-08-09 21:07:41,431] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:07:41,437] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.123 seconds
+[2022-08-09 21:08:11,623] {processor.py:153} INFO - Started process (PID=18527) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:08:11,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:08:11,628] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:08:11,670] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:08:11,694] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,694] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:08:11,706] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,706] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:08:11,707] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,707] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:08:11,708] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,708] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:08:11,712] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,712] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:08:11,715] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,715] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:08:11,717] {logging_mixin.py:115} INFO - [2022-08-09 21:08:11,717] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:08:11,721] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.103 seconds
+[2022-08-09 21:08:42,015] {processor.py:153} INFO - Started process (PID=18560) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:08:42,021] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:08:42,023] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,023] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:08:42,066] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:08:42,092] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,092] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:08:42,106] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,106] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:08:42,108] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,108] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:08:42,108] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,108] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:08:42,112] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,112] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:08:42,116] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,116] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:08:42,117] {logging_mixin.py:115} INFO - [2022-08-09 21:08:42,117] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:08:42,122] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.113 seconds
+[2022-08-09 21:09:12,331] {processor.py:153} INFO - Started process (PID=18595) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:09:12,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:09:12,336] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:09:12,381] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:09:12,401] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,401] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:09:12,414] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,414] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:09:12,415] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,415] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:09:12,416] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,416] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:09:12,420] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,420] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:09:12,423] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,423] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:09:12,424] {logging_mixin.py:115} INFO - [2022-08-09 21:09:12,424] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:09:12,428] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.102 seconds
+[2022-08-09 21:09:42,686] {processor.py:153} INFO - Started process (PID=18630) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:09:42,688] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:09:42,690] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:09:42,730] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:09:42,752] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,751] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:09:42,763] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,763] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:09:42,765] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,765] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:09:42,766] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,766] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:09:42,769] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,769] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:09:42,772] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,772] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:09:42,773] {logging_mixin.py:115} INFO - [2022-08-09 21:09:42,773] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:09:42,777] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.097 seconds
+[2022-08-09 21:10:13,059] {processor.py:153} INFO - Started process (PID=18664) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:10:13,061] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:10:13,062] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,062] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:10:13,087] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:10:13,107] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,107] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:10:13,121] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,121] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:10:13,122] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,122] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:10:13,123] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,123] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:10:13,127] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,127] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:10:13,131] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,131] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:10:13,132] {logging_mixin.py:115} INFO - [2022-08-09 21:10:13,132] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:10:13,138] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.082 seconds
+[2022-08-09 21:10:43,354] {processor.py:153} INFO - Started process (PID=18689) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:10:43,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:10:43,360] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,360] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:10:43,408] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:10:43,429] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,428] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:10:43,443] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,443] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:10:43,444] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,444] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:10:43,445] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,445] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:10:43,450] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,450] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:10:43,454] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,454] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:10:43,455] {logging_mixin.py:115} INFO - [2022-08-09 21:10:43,455] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:10:43,459] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.111 seconds
+[2022-08-09 21:11:13,705] {processor.py:153} INFO - Started process (PID=18723) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:11:13,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:11:13,719] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:11:13,780] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:11:13,812] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,812] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:11:13,832] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,832] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:11:13,833] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,833] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:11:13,834] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,834] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:11:13,840] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,840] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:11:13,844] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,844] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:11:13,845] {logging_mixin.py:115} INFO - [2022-08-09 21:11:13,845] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:11:13,851] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.162 seconds
+[2022-08-09 21:11:44,031] {processor.py:153} INFO - Started process (PID=18763) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:11:44,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:11:44,035] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,035] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:11:44,089] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:11:44,129] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,129] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:11:44,145] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,145] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:11:44,146] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,146] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:11:44,147] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,147] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:11:44,152] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,152] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:11:44,156] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,156] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:11:44,159] {logging_mixin.py:115} INFO - [2022-08-09 21:11:44,159] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:11:44,164] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.145 seconds
+[2022-08-09 21:12:14,276] {processor.py:153} INFO - Started process (PID=18796) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:12:14,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:12:14,280] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,280] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:12:14,313] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:12:14,330] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,330] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:12:14,342] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,342] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:12:14,343] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,343] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:12:14,344] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,344] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:12:14,347] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,347] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:12:14,350] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,350] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:12:14,351] {logging_mixin.py:115} INFO - [2022-08-09 21:12:14,351] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:12:14,356] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.084 seconds
+[2022-08-09 21:12:44,534] {processor.py:153} INFO - Started process (PID=18830) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:12:44,536] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:12:44,537] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,537] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:12:44,566] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:12:44,585] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,585] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:12:44,599] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,599] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:12:44,600] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,600] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:12:44,601] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,601] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:12:44,605] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,605] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:12:44,609] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,609] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:12:44,610] {logging_mixin.py:115} INFO - [2022-08-09 21:12:44,610] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:12:44,616] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.085 seconds
+[2022-08-09 21:13:14,862] {processor.py:153} INFO - Started process (PID=18855) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:13:14,865] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:13:14,866] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:13:14,896] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:13:14,917] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,917] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:13:14,932] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,932] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:13:14,933] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,933] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:13:14,934] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,934] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:13:14,938] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,938] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:13:14,942] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,942] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:13:14,942] {logging_mixin.py:115} INFO - [2022-08-09 21:13:14,942] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:13:14,947] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.087 seconds
+[2022-08-09 21:13:45,235] {processor.py:153} INFO - Started process (PID=18889) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:13:45,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:13:45,239] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,239] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:13:45,279] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:13:45,308] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,308] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:13:45,328] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,328] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:13:45,329] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,329] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:13:45,331] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,331] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:13:45,335] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,335] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:13:45,338] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,338] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:13:45,339] {logging_mixin.py:115} INFO - [2022-08-09 21:13:45,339] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:13:45,344] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.112 seconds
+[2022-08-09 21:14:15,530] {processor.py:153} INFO - Started process (PID=18923) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:14:15,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:14:15,533] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,533] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:14:15,563] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:14:15,582] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,582] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:14:15,596] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,596] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:14:15,598] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,598] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:14:15,598] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,598] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:14:15,602] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,602] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:14:15,606] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,605] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:14:15,606] {logging_mixin.py:115} INFO - [2022-08-09 21:14:15,606] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:14:15,611] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.084 seconds
+[2022-08-09 21:14:45,789] {processor.py:153} INFO - Started process (PID=18962) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:14:45,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:14:45,793] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:14:45,827] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:14:45,844] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,844] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:14:45,856] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,856] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:14:45,857] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,857] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:14:45,858] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,858] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:14:45,862] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,862] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:14:45,865] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,865] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:14:45,866] {logging_mixin.py:115} INFO - [2022-08-09 21:14:45,866] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:14:45,870] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.085 seconds
+[2022-08-09 21:15:16,202] {processor.py:153} INFO - Started process (PID=18994) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:15:16,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:15:16,206] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,206] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:15:16,232] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:15:16,253] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,253] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:15:16,267] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,267] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:15:16,268] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,268] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:15:16,270] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,270] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:15:16,275] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,275] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:15:16,279] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,279] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:15:16,280] {logging_mixin.py:115} INFO - [2022-08-09 21:15:16,280] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:15:16,285] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.085 seconds
+[2022-08-09 21:15:46,508] {processor.py:153} INFO - Started process (PID=19021) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:15:46,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:15:46,511] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,511] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:15:46,543] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:15:46,560] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,560] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:15:46,572] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,571] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:15:46,572] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,572] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:15:46,573] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,573] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:15:46,577] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,577] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:15:46,580] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,580] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:15:46,581] {logging_mixin.py:115} INFO - [2022-08-09 21:15:46,581] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:15:46,585] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.080 seconds
+[2022-08-09 21:16:16,813] {processor.py:153} INFO - Started process (PID=19054) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:16:16,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:16:16,816] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:16:16,844] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:16:16,861] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,861] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:16:16,873] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,873] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:16:16,874] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,874] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:16:16,875] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,875] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:16:16,878] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,878] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:16:16,882] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,881] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:16:16,883] {logging_mixin.py:115} INFO - [2022-08-09 21:16:16,883] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:16:16,888] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.078 seconds
+[2022-08-09 21:16:47,146] {processor.py:153} INFO - Started process (PID=19087) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:16:47,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:16:47,151] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,151] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:16:47,189] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:16:47,208] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,208] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:16:47,219] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,219] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:16:47,220] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,220] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:16:47,221] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,221] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:16:47,225] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,225] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:16:47,228] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,228] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:16:47,229] {logging_mixin.py:115} INFO - [2022-08-09 21:16:47,229] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:16:47,234] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.093 seconds
+[2022-08-09 21:17:17,490] {processor.py:153} INFO - Started process (PID=19119) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:17:17,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:17:17,494] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:17:17,529] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:17:17,547] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,547] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:17:17,558] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,558] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:17:17,560] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,559] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:17:17,560] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,560] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:17:17,564] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,563] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:17:17,567] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,567] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:17:17,567] {logging_mixin.py:115} INFO - [2022-08-09 21:17:17,567] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:17:17,572] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.087 seconds
+[2022-08-09 21:17:47,787] {processor.py:153} INFO - Started process (PID=19143) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:17:47,789] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:17:47,792] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,791] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:17:47,833] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:17:47,854] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,854] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:17:47,867] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,867] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:17:47,868] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,868] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:17:47,869] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,869] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:17:47,873] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,873] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:17:47,876] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,876] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:17:47,877] {logging_mixin.py:115} INFO - [2022-08-09 21:17:47,877] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:17:47,881] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.097 seconds
+[2022-08-09 21:18:18,039] {processor.py:153} INFO - Started process (PID=19176) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:18:18,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:18:18,043] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,043] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:18:18,074] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:18:18,095] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,095] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:18:18,109] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,109] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:18:18,110] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,110] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:18:18,111] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,111] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:18:18,116] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,116] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:18:18,121] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,121] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:18:18,122] {logging_mixin.py:115} INFO - [2022-08-09 21:18:18,122] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:18:18,126] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 21:18:48,392] {processor.py:153} INFO - Started process (PID=19208) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:18:48,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:18:48,399] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,399] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:18:48,445] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:18:48,465] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,465] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:18:48,480] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,479] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:18:48,481] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,481] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:18:48,482] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,482] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:18:48,485] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,485] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:18:48,490] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,490] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:18:48,491] {logging_mixin.py:115} INFO - [2022-08-09 21:18:48,491] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:18:48,497] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.109 seconds
+[2022-08-09 21:19:18,684] {processor.py:153} INFO - Started process (PID=19242) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:19:18,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:19:18,689] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:19:18,737] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:19:18,758] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,758] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:19:18,772] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,772] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:19:18,776] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,776] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:19:18,778] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,778] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:19:18,783] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,783] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:19:18,787] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,787] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:19:18,788] {logging_mixin.py:115} INFO - [2022-08-09 21:19:18,788] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:19:18,794] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.115 seconds
+[2022-08-09 21:19:48,991] {processor.py:153} INFO - Started process (PID=19278) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:19:48,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:19:48,996] {logging_mixin.py:115} INFO - [2022-08-09 21:19:48,996] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:19:49,032] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:19:49,051] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,051] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:19:49,065] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,065] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:19:49,066] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,066] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:19:49,067] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,067] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:19:49,072] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,072] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:19:49,075] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,075] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:19:49,076] {logging_mixin.py:115} INFO - [2022-08-09 21:19:49,076] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:19:49,080] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.093 seconds
+[2022-08-09 21:20:19,340] {processor.py:153} INFO - Started process (PID=19303) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:20:19,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:20:19,344] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,344] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:20:19,385] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:20:19,403] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,403] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:20:19,415] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,415] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:20:19,416] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,416] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:20:19,417] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,417] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:20:19,421] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,421] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:20:19,425] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,425] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:20:19,426] {logging_mixin.py:115} INFO - [2022-08-09 21:20:19,426] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:20:19,431] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.097 seconds
+[2022-08-09 21:20:49,711] {processor.py:153} INFO - Started process (PID=19337) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:20:49,715] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:20:49,717] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,717] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:20:49,759] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:20:49,777] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,777] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:20:49,789] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,789] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:20:49,791] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,791] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:20:49,792] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,792] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:20:49,796] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,796] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:20:49,800] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,800] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:20:49,801] {logging_mixin.py:115} INFO - [2022-08-09 21:20:49,801] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:20:49,806] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.102 seconds
+[2022-08-09 21:21:20,059] {processor.py:153} INFO - Started process (PID=19371) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:21:20,063] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:21:20,065] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,065] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:21:20,103] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:21:20,123] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,123] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:21:20,135] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,134] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:21:20,136] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,136] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:21:20,137] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,136] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:21:20,140] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,140] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:21:20,143] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,143] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:21:20,144] {logging_mixin.py:115} INFO - [2022-08-09 21:21:20,144] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:21:20,148] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.093 seconds
+[2022-08-09 21:21:50,409] {processor.py:153} INFO - Started process (PID=19405) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:21:50,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:21:50,413] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:21:50,445] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:21:50,466] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,466] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:21:50,481] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,481] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:21:50,482] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,482] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:21:50,483] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,483] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:21:50,487] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,487] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:21:50,490] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,490] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:21:50,491] {logging_mixin.py:115} INFO - [2022-08-09 21:21:50,491] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:21:50,495] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 21:22:20,747] {processor.py:153} INFO - Started process (PID=19438) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:22:20,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:22:20,752] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:22:20,794] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:22:20,813] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,812] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:22:20,824] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,824] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:22:20,826] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,825] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:22:20,826] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,826] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:22:20,830] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,830] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:22:20,833] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,833] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:22:20,834] {logging_mixin.py:115} INFO - [2022-08-09 21:22:20,834] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:22:20,838] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.097 seconds
+[2022-08-09 21:22:51,017] {processor.py:153} INFO - Started process (PID=19470) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:22:51,020] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:22:51,021] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,021] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:22:51,048] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:22:51,071] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,071] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:22:51,087] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,087] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:22:51,088] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,088] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:22:51,089] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,089] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:22:51,094] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,094] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:22:51,098] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,098] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:22:51,099] {logging_mixin.py:115} INFO - [2022-08-09 21:22:51,099] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:22:51,105] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.090 seconds
+[2022-08-09 21:23:21,392] {processor.py:153} INFO - Started process (PID=19497) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:23:21,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:23:21,398] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,398] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:23:21,446] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:23:21,470] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,470] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:23:21,486] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,486] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:23:21,488] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,488] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:23:21,489] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,489] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:23:21,493] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,493] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:23:21,497] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,497] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:23:21,497] {logging_mixin.py:115} INFO - [2022-08-09 21:23:21,497] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:23:21,502] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.116 seconds
+[2022-08-09 21:23:51,800] {processor.py:153} INFO - Started process (PID=19531) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:23:51,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:23:51,805] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,805] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:23:51,843] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:23:51,866] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,866] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:23:51,879] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,879] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:23:51,881] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,881] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:23:51,882] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,882] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:23:51,886] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,886] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:23:51,889] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,889] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:23:51,890] {logging_mixin.py:115} INFO - [2022-08-09 21:23:51,890] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:23:51,894] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.099 seconds
+[2022-08-09 21:24:22,150] {processor.py:153} INFO - Started process (PID=19565) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:24:22,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:24:22,154] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,154] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:24:22,189] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:24:22,209] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,209] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:24:22,222] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,222] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:24:22,223] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,223] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:24:22,224] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,224] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:24:22,228] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,228] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:24:22,231] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,231] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:24:22,232] {logging_mixin.py:115} INFO - [2022-08-09 21:24:22,232] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:24:22,236] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.091 seconds
+[2022-08-09 21:24:52,520] {processor.py:153} INFO - Started process (PID=19598) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:24:52,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:24:52,525] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,525] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:24:52,560] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:24:52,577] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,577] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:24:52,589] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,588] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:24:52,590] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,590] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:24:52,590] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,590] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:24:52,594] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,594] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:24:52,597] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,597] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:24:52,598] {logging_mixin.py:115} INFO - [2022-08-09 21:24:52,598] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:24:52,602] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.087 seconds
+[2022-08-09 21:25:22,766] {processor.py:153} INFO - Started process (PID=19633) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:25:22,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:25:22,771] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,771] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:25:22,820] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:25:22,840] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,840] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:25:22,858] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,857] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:25:22,859] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,859] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:25:22,861] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,860] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:25:22,867] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,866] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:25:22,871] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,871] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:25:22,873] {logging_mixin.py:115} INFO - [2022-08-09 21:25:22,873] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:25:22,881] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.118 seconds
+[2022-08-09 21:25:53,101] {processor.py:153} INFO - Started process (PID=19658) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:25:53,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:25:53,105] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,105] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:25:53,143] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:25:53,164] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,164] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:25:53,178] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,178] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:25:53,180] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,179] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:25:53,180] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,180] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:25:53,184] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,184] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:25:53,187] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,187] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:25:53,188] {logging_mixin.py:115} INFO - [2022-08-09 21:25:53,188] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:25:53,192] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.098 seconds
+[2022-08-09 21:26:23,404] {processor.py:153} INFO - Started process (PID=19692) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:26:23,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:26:23,407] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,407] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:26:23,435] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:26:23,454] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,454] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:26:23,469] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,469] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:26:23,470] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,470] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:26:23,471] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,471] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:26:23,475] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,475] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:26:23,480] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,480] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:26:23,481] {logging_mixin.py:115} INFO - [2022-08-09 21:26:23,480] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:26:23,486] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.084 seconds
+[2022-08-09 21:26:53,689] {processor.py:153} INFO - Started process (PID=19727) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:26:53,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:26:53,691] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,691] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:26:53,716] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:26:53,733] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,733] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:26:53,744] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,744] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:26:53,745] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,745] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:26:53,746] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,746] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:26:53,749] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,749] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:26:53,752] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,752] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:26:53,753] {logging_mixin.py:115} INFO - [2022-08-09 21:26:53,753] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:26:53,757] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.071 seconds
+[2022-08-09 21:27:23,997] {processor.py:153} INFO - Started process (PID=19761) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:27:23,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:27:24,000] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:27:24,026] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:27:24,044] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,044] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:27:24,056] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,056] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:27:24,057] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,057] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:27:24,058] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,058] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:27:24,061] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,061] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:27:24,065] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,065] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:27:24,065] {logging_mixin.py:115} INFO - [2022-08-09 21:27:24,065] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:27:24,070] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.075 seconds
+[2022-08-09 21:27:54,305] {processor.py:153} INFO - Started process (PID=19796) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:27:54,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:27:54,307] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,307] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:27:54,333] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:27:54,350] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,350] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:27:54,364] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,364] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:27:54,366] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,366] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:27:54,367] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,367] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:27:54,370] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,370] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:27:54,373] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,373] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:27:54,374] {logging_mixin.py:115} INFO - [2022-08-09 21:27:54,374] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:27:54,378] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.076 seconds
+[2022-08-09 21:28:24,553] {processor.py:153} INFO - Started process (PID=19822) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:28:24,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:28:24,556] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:28:24,582] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:28:24,598] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,598] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:28:24,610] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,610] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:28:24,611] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,611] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:28:24,612] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,612] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:28:24,616] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,616] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:28:24,619] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,619] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:28:24,620] {logging_mixin.py:115} INFO - [2022-08-09 21:28:24,620] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:28:24,624] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.073 seconds
+[2022-08-09 21:28:54,870] {processor.py:153} INFO - Started process (PID=19855) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:28:54,873] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:28:54,874] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,874] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:28:54,911] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:28:54,936] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,936] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:28:54,952] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,952] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:28:54,953] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,953] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:28:54,954] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,954] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:28:54,958] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,958] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:28:54,962] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,962] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:28:54,963] {logging_mixin.py:115} INFO - [2022-08-09 21:28:54,963] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:28:54,968] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.105 seconds
+[2022-08-09 21:29:25,188] {processor.py:153} INFO - Started process (PID=19890) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:29:25,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:29:25,194] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,194] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:29:25,235] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:29:25,254] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,254] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:29:25,268] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,268] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:29:25,269] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,269] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:29:25,270] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,270] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:29:25,275] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,275] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:29:25,278] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,278] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:29:25,279] {logging_mixin.py:115} INFO - [2022-08-09 21:29:25,279] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:29:25,284] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.103 seconds
+[2022-08-09 21:29:55,594] {processor.py:153} INFO - Started process (PID=19925) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:29:55,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:29:55,600] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,600] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:29:55,638] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:29:55,656] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,655] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:29:55,668] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,668] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:29:55,669] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,669] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:29:55,670] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,670] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:29:55,673] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,673] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:29:55,676] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,676] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:29:55,677] {logging_mixin.py:115} INFO - [2022-08-09 21:29:55,677] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:29:55,681] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.093 seconds
+[2022-08-09 21:30:25,838] {processor.py:153} INFO - Started process (PID=19959) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:30:25,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:30:25,842] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,842] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:30:25,879] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:30:25,896] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,896] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:30:25,908] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,907] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:30:25,909] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,909] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:30:25,910] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,910] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:30:25,913] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,913] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:30:25,917] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,917] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:30:25,918] {logging_mixin.py:115} INFO - [2022-08-09 21:30:25,918] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:30:25,922] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.089 seconds
+[2022-08-09 21:30:56,169] {processor.py:153} INFO - Started process (PID=19983) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:30:56,172] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:30:56,174] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,174] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:30:56,215] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:30:56,239] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,239] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:30:56,252] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,252] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:30:56,253] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,253] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:30:56,254] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,254] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:30:56,257] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,257] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:30:56,260] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,260] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:30:56,261] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,261] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:30:56,265] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.102 seconds
+[2022-08-09 21:31:26,530] {processor.py:153} INFO - Started process (PID=20017) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:31:26,534] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:31:26,536] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,536] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:31:26,573] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:31:26,591] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,590] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:31:26,602] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,602] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:31:26,603] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,603] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:31:26,604] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,604] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:31:26,607] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,607] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:31:26,611] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,611] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:31:26,611] {logging_mixin.py:115} INFO - [2022-08-09 21:31:26,611] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:31:26,615] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.091 seconds
+[2022-08-09 21:31:56,824] {processor.py:153} INFO - Started process (PID=20050) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:31:56,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:31:56,830] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:31:56,869] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:31:56,893] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,893] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:31:56,906] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,906] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:31:56,907] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,907] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:31:56,909] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,908] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:31:56,913] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,913] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:31:56,916] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,916] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:31:56,917] {logging_mixin.py:115} INFO - [2022-08-09 21:31:56,917] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:31:56,922] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.101 seconds
+[2022-08-09 21:32:27,142] {processor.py:153} INFO - Started process (PID=20084) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:32:27,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:32:27,147] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,147] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:32:27,186] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:32:27,210] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,210] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:32:27,224] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,224] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:32:27,226] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,226] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:32:27,226] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,226] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:32:27,230] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,230] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:32:27,234] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,234] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:32:27,238] {logging_mixin.py:115} INFO - [2022-08-09 21:32:27,238] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:32:27,253] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.116 seconds
+[2022-08-09 21:32:57,479] {processor.py:153} INFO - Started process (PID=20118) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:32:57,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:32:57,484] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,484] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:32:57,517] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:32:57,537] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,537] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:32:57,551] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,551] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:32:57,552] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,552] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:32:57,553] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,553] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:32:57,557] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,557] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:32:57,561] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,561] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:32:57,562] {logging_mixin.py:115} INFO - [2022-08-09 21:32:57,562] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:32:57,568] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.091 seconds
+[2022-08-09 21:33:27,744] {processor.py:153} INFO - Started process (PID=20143) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:33:27,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:33:27,749] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,749] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:33:27,786] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:33:27,806] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,806] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:33:27,817] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,817] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:33:27,818] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,818] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:33:27,819] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,819] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:33:27,823] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,823] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:33:27,827] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,827] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:33:27,827] {logging_mixin.py:115} INFO - [2022-08-09 21:33:27,827] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:33:27,833] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.094 seconds
+[2022-08-09 21:33:58,102] {processor.py:153} INFO - Started process (PID=20177) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:33:58,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:33:58,110] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:33:58,165] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:33:58,196] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,196] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:33:58,212] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,212] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:33:58,214] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,214] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:33:58,215] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,215] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:33:58,219] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,219] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:33:58,222] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,222] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:33:58,223] {logging_mixin.py:115} INFO - [2022-08-09 21:33:58,223] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:33:58,228] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.135 seconds
+[2022-08-09 21:34:28,433] {processor.py:153} INFO - Started process (PID=20213) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:34:28,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:34:28,438] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,438] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:34:28,475] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:34:28,498] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,498] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:34:28,510] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,510] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:34:28,511] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,511] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:34:28,512] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,512] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:34:28,515] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,515] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:34:28,518] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,518] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:34:28,519] {logging_mixin.py:115} INFO - [2022-08-09 21:34:28,519] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:34:28,523] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.096 seconds
+[2022-08-09 21:34:58,806] {processor.py:153} INFO - Started process (PID=20246) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:34:58,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:34:58,810] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:34:58,836] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:34:58,856] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,856] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:34:58,873] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,873] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:34:58,874] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,874] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:34:58,875] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,875] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:34:58,881] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,881] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:34:58,886] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,886] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:34:58,887] {logging_mixin.py:115} INFO - [2022-08-09 21:34:58,887] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:34:58,892] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.089 seconds
+[2022-08-09 21:35:29,090] {processor.py:153} INFO - Started process (PID=20279) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:35:29,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:35:29,093] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:35:29,120] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:35:29,138] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,138] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:35:29,149] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,149] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:35:29,151] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,150] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:35:29,151] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,151] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:35:29,155] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,154] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:35:29,158] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,158] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:35:29,158] {logging_mixin.py:115} INFO - [2022-08-09 21:35:29,158] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:35:29,163] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.075 seconds
+[2022-08-09 21:35:59,379] {processor.py:153} INFO - Started process (PID=20304) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:35:59,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:35:59,382] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:35:59,409] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:35:59,425] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,425] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:35:59,437] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,437] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:35:59,438] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,438] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:35:59,439] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,439] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:35:59,442] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,442] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:35:59,445] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,445] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:35:59,446] {logging_mixin.py:115} INFO - [2022-08-09 21:35:59,446] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:35:59,450] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.074 seconds
+[2022-08-09 21:40:46,608] {processor.py:153} INFO - Started process (PID=20318) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 21:40:46,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 21:40:46,614] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,614] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:40:46,713] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 21:40:46,822] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,822] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 21:40:46,869] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,868] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 21:40:46,871] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,871] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:40:46,872] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,872] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:40:46,881] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,881] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 21:40:46,893] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,893] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 21:40:46,895] {logging_mixin.py:115} INFO - [2022-08-09 21:40:46,895] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 21:40:46,907] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.308 seconds
+[2022-08-09 22:14:57,897] {processor.py:153} INFO - Started process (PID=20351) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 22:14:57,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 22:14:57,906] {logging_mixin.py:115} INFO - [2022-08-09 22:14:57,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 22:14:57,965] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 22:14:58,030] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,030] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 22:14:58,059] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,059] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 22:14:58,060] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,060] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 22:14:58,066] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,066] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 22:14:58,075] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,074] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 22:14:58,082] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,082] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 22:14:58,083] {logging_mixin.py:115} INFO - [2022-08-09 22:14:58,083] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 22:14:58,091] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.201 seconds
+[2022-08-09 22:47:05,329] {processor.py:153} INFO - Started process (PID=20385) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 22:47:05,331] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 22:47:05,332] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 22:47:05,398] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 22:47:05,496] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,496] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 22:47:05,544] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,544] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 22:47:05,555] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,555] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 22:47:05,575] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,575] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 22:47:05,639] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,639] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 22:47:05,668] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,668] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 22:47:05,677] {logging_mixin.py:115} INFO - [2022-08-09 22:47:05,676] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 22:47:05,702] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.375 seconds
+[2022-08-09 23:38:08,104] {processor.py:153} INFO - Started process (PID=20410) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 23:38:08,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 23:38:08,109] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 23:38:08,171] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 23:38:08,230] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,230] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 23:38:08,284] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,284] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 23:38:08,288] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,288] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 23:38:08,290] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,290] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 23:38:08,301] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,301] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 23:38:08,314] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,314] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 23:38:08,316] {logging_mixin.py:115} INFO - [2022-08-09 23:38:08,316] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 23:38:08,337] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.237 seconds
+[2022-08-09 23:54:13,610] {processor.py:153} INFO - Started process (PID=20444) to work on /opt/airflow/dags/group_dag.py
+[2022-08-09 23:54:13,613] {processor.py:641} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-08-09 23:54:13,615] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,615] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-08-09 23:54:13,676] {processor.py:651} INFO - DAG(s) dict_keys(['group_dag.downloads', 'group_dag.transforms', 'group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-08-09 23:54:13,785] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,785] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-08-09 23:54:13,819] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,819] {dag.py:2919} INFO - Setting next_dagrun for group_dag to 2022-08-09T00:00:00+00:00, run_after=2022-08-10T00:00:00+00:00
+[2022-08-09 23:54:13,820] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,820] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 23:54:13,821] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,821] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 23:54:13,832] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,832] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-08-09 23:54:13,842] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,841] {dag.py:2919} INFO - Setting next_dagrun for group_dag.downloads to None, run_after=None
+[2022-08-09 23:54:13,842] {logging_mixin.py:115} INFO - [2022-08-09 23:54:13,842] {dag.py:2919} INFO - Setting next_dagrun for group_dag.transforms to None, run_after=None
+[2022-08-09 23:54:13,849] {processor.py:161} INFO - Processing /opt/airflow/dags/group_dag.py took 0.243 seconds
